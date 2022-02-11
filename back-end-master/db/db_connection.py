@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 # y la BD debes crearle un esquema
 # TODO: Debes cambiar con tu usuario y contraseña de PostgreSQL
 # además del host, puerto y nombre de la base de datos que hayas definido
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:****@localhost:****/MisionTic"
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres:********"
 engine                  = create_engine(SQLALCHEMY_DATABASE_URL)
 
 # SQLALCHEMY_DATABASE_URL = "postgresql://bukybbizgzzhux:963369b9027955c7702825223babed6958cb7163eee64c6cb1aa78d74788edac@ec2-34-200-181-5.compute-1.amazonaws.com:5432/d4vhnle2anng12"
