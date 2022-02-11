@@ -1,0 +1,4 @@
+uvicorn main:api --reload ----> iniciar servidor local uvicorn backend
+npm run start ------> correr frontend con vue.js
+
+virtualenv env ----->crear entorno virtual
