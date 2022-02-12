@@ -6,7 +6,7 @@ class UserIn(BaseModel):
 
 class UserOut(BaseModel):
     username    : str
-    balance     : int
+    contact     : str
 
     class Config:
         orm_mode = True

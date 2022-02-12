@@ -3,11 +3,11 @@
 
     <div class="header">
 
-      <h1>Banco UN</h1>
+      <h1>New App</h1>
       <nav>
         <button v-on:click="init" v-if="is_auth" > Inicio </button>
-        <button v-on:click="getBalance" v-if="is_auth" > Saldo </button>
-        <button v-on:click="doTransaction" v-if="is_auth" > Transacción </button>
+        <button v-on:click="getBalance" v-if="is_auth" > Contactos </button>
+        <!-- <button v-on:click="doTransaction" v-if="is_auth" > Transacción </button> -->
         <button v-on:click="logOut" v-if="is_auth" >Cerrar Sesión</button>
       </nav>
     </div>
@@ -21,7 +21,7 @@
 
 
     <div class="footer">
-      <h2>Misión TIC 2022</h2>
+      <h2>Test Bootcamp JalaSoft</h2>
     </div>
 
 
@@ -136,7 +136,7 @@ export default {
     height: 10vh; 
     min-height: 100px;
 
-    background-color: #283747 ;
+    background-color: #504827 ;
     color:#E5E7E9  ;
 
     display: flex;
@@ -162,7 +162,7 @@ export default {
 
   .header nav button{
     color: #E5E7E9;
-    background: #283747;
+    background: #504827;
     border: 1px solid #E5E7E9;
 
     border-radius: 5px;
@@ -192,7 +192,7 @@ export default {
     height: 10vh;
     min-height: 100px; 
 
-    background-color: #283747;
+    background-color: #504827;
     color: #E5E7E9;
 
   }

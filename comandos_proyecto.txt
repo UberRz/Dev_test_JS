@@ -2,3 +2,7 @@ uvicorn main:api --reload ----> iniciar servidor local uvicorn backend
 npm run start ------> correr frontend con vue.js
 
 virtualenv env ----->crear entorno virtual
+
+INSERT INTO prueba.users(username, password, email)
+VALUES ('maria', '1234', 'maria123@gmail.com');  -----> insertar datos a base de datos
+

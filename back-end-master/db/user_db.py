@@ -6,6 +6,6 @@ class UserInDB(Base):
 
     username    = Column(String, primary_key=True, unique=True)
     password    = Column(String)
-    balance     = Column(Integer)
+    email     = Column(String)
 
 Base.metadata.create_all(bind=engine)

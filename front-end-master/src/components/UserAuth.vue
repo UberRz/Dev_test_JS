@@ -79,7 +79,7 @@ export default {
     }
 
     .container_auth_user {
-        border: 3px solid  #283747;
+        border: 3px solid  #504827;
         border-radius: 10px;
         width: 25%;
         height: 60%;
@@ -91,7 +91,7 @@ export default {
     }
 
     .auth_user h2{
-        color: #283747;
+        color: #504827;
 
     }
 
@@ -108,7 +108,7 @@ export default {
         padding: 10px 20px;
         margin: 5px 0;
 
-        border: 1px solid #283747;
+        border: 1px solid #504827;
         
     }
 
@@ -119,7 +119,7 @@ export default {
         height: 40px;
 
         color: #E5E7E9;
-        background: #283747;
+        background: #504827;
         border: 1px solid #E5E7E9;
 
         border-radius: 5px;
@@ -129,8 +129,8 @@ export default {
 
     .auth_user button:hover{
         color: #E5E7E9;
-        background: crimson;
-        border: 1px solid #283747;
+        background: rgb(19, 204, 218);
+        border: 1px solid #504827;
     }
 
 </style>

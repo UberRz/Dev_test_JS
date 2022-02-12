@@ -3,7 +3,7 @@ import vueRouter from 'vue-router'
 
 import User from './components/User'
 import UserAuth from './components/UserAuth'
-import UserBalance from './components/UserBalance'
+import UserContact from './components/UserContact'
 import UserTransaction from './components/UserTransaction'
 import App from './App'
 
@@ -28,9 +28,9 @@ const router = new vueRouter({
                 component: UserAuth
             },
             {
-                path: '/user/balance/:username',
-                name: "user_balance",
-                component: UserBalance
+                path: '/user/contact/:username',
+                name: "user_contact",
+                component: UserContact
             },
             {
                 path: '/user/transaction/:username',

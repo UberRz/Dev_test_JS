@@ -36,11 +36,11 @@
 
     #User h2{
         font-size: 50px;
-        color: #283747;
+        color: #504827;
     }
 
     #User span{
-        color: crimson;
+        color: rgb(43, 212, 235);
         font-weight: bold;
     }
 </style>
